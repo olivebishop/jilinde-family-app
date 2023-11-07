@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define custom properties for colors in the root (global scope) */
+/*:root {
+  --foreground-rgb: 0, 0, 0; /* Default text and foreground color */
+ /* --background-start-rgb: 214, 219, 220; /* Default background gradient start color */
+  /*--background-end-rgb: 255, 255, 255; /* Default background gradient end color */
+/*}*/
+
+/* Media query for devices with a dark color scheme preference */
+/*@media (prefers-color-scheme: dark) /*, (prefers-color-scheme: no-preference)*//*{*/
+  /* Override the custom properties for dark mode */
+  /*:root {
+   /* --foreground-rgb: 255, 255, 255; /* White text and foreground color */
+   /* --background-start-rgb: 0, 0, 0; /* Black background gradient start color */
+   /* --background-end-rgb: 0, 0, 0; /* Black background gradient end color */
+/*}*/
+/*}*/
+
+/* Apply the custom properties to the body element */
+/*body {
+  color: rgb(var(--foreground-rgb)); /* Set text color using the custom property */
+  /*background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb)) /* Set the background gradient end color */
+  /*)*/
+   /* rgb(var(--background-start-rgb)); /* Set the background gradient start color */
+/*}*/
